@@ -1,0 +1,319 @@
+
+
+
+.cta-btn{
+    padding: 15px 30px;
+    background: #FD6E0A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-btn:hover{
+    background: black;
+    color: white;
+}
+
+.social-btn{
+    padding: 15px 30px;
+    background: white;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-btn:hover{
+    background: #FD6E0A;
+    color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image: url("../B10A1-Challenge-Begins/assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  height: 90px;
+  padding: 0 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+nav h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.resume-btn {
+  padding: 16px 24px;
+  background-color: white;
+  border: 2px solid #222;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.banner {
+  text-align: center;
+  padding-top: 65px;
+}
+
+.developer-img {
+  width: 230px;
+  margin-bottom: 25px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  line-height: 1.3;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+.banner p {
+  width: 750px;
+  max-width: 90%;
+  margin: 0 auto 35px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contact-btn {
+  padding: 20px 28px;
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#ffffff;
+}
+/* why web development section */
+/* Why Web Development Section */
+
+.why-web {
+    margin: 100px auto;
+    width: 85%;
+}
+
+.why-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.why-title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.why-title p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+/* Card */
+
+.web-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.08);
+    margin-top: 50px;
+}
+
+.web-text {
+    width: 50%;
+}
+
+.web-text h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.web-text p {
+    font-size: 18px;
+    color: #555;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.web-text button {
+    padding: 14px 28px;
+    font-size: 18px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.web-text button:hover {
+    background: #084298;
+}
+
+.web-image {
+    width: 45%;
+    text-align: right;
+}
+
+.web-image img {
+    width: 100%;
+    max-width: 450px;
+}
+/* Inspiration */
+
+.inspiration{
+    width: 90%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.inspiration h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.inspiration p{
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.video{
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.video iframe{
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
+}
+
+
+/* Current Target */
+
+.target{
+    width: 90%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.target h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.target p{
+    color: gray;
+    margin:20px 0 50px;
+}
+
+.target-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card{
+    width: 300px;
+    padding:40px;
+    border-radius:16px;
+    text-align:left;
+}
+
+.card img{
+    width:56px;
+}
+
+.card h3{
+    margin:20px 0 10px;
+    font-size:24px;
+}
+
+.card p{
+    margin-bottom:20px;
+    color:#555;
+}
+
+.card a{
+    color:black;
+    font-weight:bold;
+}
+
+.html{
+    background:#fff6f4;
+}
+
+.css{
+    background:#f2f6ff;
+}
+
+.js{
+    background:#fffbea;
+}
+
+
+footer{
+text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
